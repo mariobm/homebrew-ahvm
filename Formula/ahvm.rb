@@ -1,22 +1,22 @@
 class Ahvm < Formula
   desc "Persistent Linux microVMs for coding agents"
   homepage "https://ahvm.app"
-  version "0.2.0"
+  version "0.2.1"
   license "LicenseRef-AHVM-Community-1.0"
   on_macos do
     on_arm do
-      url "https://github.com/mariobm/agent-house/releases/download/v0.2.0/ahvm-0.2.0-darwin-aarch64.gz"
-      sha256 "586063d44876e1c4fe44c9b2bda6648cac466ba357d13275f8d999a0c942f1e3"
+      url "https://github.com/mariobm/agent-house/releases/download/v0.2.1/ahvm-0.2.1-darwin-aarch64.gz"
+      sha256 "bfe6e2cdbe48a82a78037a5df756ad6a3012e49b55759740c6c728f5c39f3be3"
     end
     on_intel do
-      url "https://github.com/mariobm/agent-house/releases/download/v0.2.0/ahvm-0.2.0-darwin-x86_64.gz"
-      sha256 "f43e3e6495e101d2fc7d3fbd80843831e25d04d89b47a5f02614be6f4caccfa2"
+      url "https://github.com/mariobm/agent-house/releases/download/v0.2.1/ahvm-0.2.1-darwin-x86_64.gz"
+      sha256 "2560d96c8c85d97ada4741d26c659502027615b0cf4a6de5dba0e97c24bf289c"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/mariobm/agent-house/releases/download/v0.2.0/ahvm-0.2.0-linux-x86_64.gz"
-      sha256 "eebc424a327e06c30393707696fb31f19f2ac3723dd9281a9f9684ecbe46d15f"
+      url "https://github.com/mariobm/agent-house/releases/download/v0.2.1/ahvm-0.2.1-linux-x86_64.gz"
+      sha256 "2a78663b4000a4a76889078fe26e300f33c3ad90d42421c607d778aa7cbdfa31"
     end
   end
 
