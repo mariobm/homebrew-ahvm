@@ -1,19 +1,19 @@
 class Ahvm < Formula
   desc "Persistent Linux microVMs for coding agents"
   homepage "https://ahvm.app"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/mariobm/agent-house/releases/download/v0.4.0/ahvm-client-0.4.0-darwin-aarch64.tar.gz"
-      sha256 "6db99f4fca2d4f9379475264b4b5373a16ab6bed422bad675000d876f9814abc"
+      url "https://github.com/mariobm/agent-house/releases/download/v0.4.1/ahvm-client-0.4.1-darwin-aarch64.tar.gz"
+      sha256 "6fa57ba9c716690025f7405c3f1ed74bf1a731ac604226a6f60937ce40fd1772"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/mariobm/agent-house/releases/download/v0.4.0/ahvm-client-0.4.0-linux-x86_64.tar.gz"
-      sha256 "86d606f4c49edce8465ee81242cd482bcb5899a2451d00889f0fb7bbd2a060bc"
+      url "https://github.com/mariobm/agent-house/releases/download/v0.4.1/ahvm-client-0.4.1-linux-x86_64.tar.gz"
+      sha256 "420b47c1343f4a5e1f33ba1be64b91a3d96979e8e1c9151d2c9d8bf480ab1a23"
     end
   end
 
